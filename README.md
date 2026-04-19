@@ -10,9 +10,9 @@ A smart task prioritization and workload balancing tool built for teams that mov
 
 ---
 
-<<<<<<< HEAD
+ HEAD
 ## 🏆 Hackathon Details
-- **Event:** Hackathon Shaastra
+- **Event:** TarkShaastra
 - **Team Name:** Duet Combats
 - **Problem Statement (TS-13):** Intelligent Work Prioritization & Productivity Assistant
 
