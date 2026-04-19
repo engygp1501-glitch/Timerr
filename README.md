@@ -10,6 +10,7 @@ A smart task prioritization and workload balancing tool built for teams that mov
 
 ---
 
+<<<<<<< HEAD
 ## 🏆 Hackathon Details
 - **Event:** Hackathon Shaastra
 - **Team Name:** Duet Combats
@@ -39,6 +40,26 @@ We built Priorix to solve our own headaches. During past projects, we noticed a 
 - **Global Command Palette:** We hate using the mouse. Press `Ctrl + K` to open a spotlight search that lets you navigate the app or find tasks instantly.
 - **Reporting & Export:** Generate detailed performance reports and export task data as PDF or CSV for team analysis.
 - **Team Activity Hub:** A built-in realtime feed that auto-logs accomplishments, keeping the team synced without constant meetings.
+=======
+## What it is
+
+Most project management tools end up becoming dumping grounds for tickets. We wanted to build something that actually helps teams figure out what to work on *next*. Priorix is an experimental task manager that uses a scoring engine to rank tasks based on effort, impact, and deadlines, doing the heavy lifting of sprint planning for you.
+
+## Why we built this
+
+During past projects, we noticed a recurring problem: developers would get stuck picking the "easiest" task rather than the most "important" one, and managers had zero visibility into who was secretly overwhelmed until deadlines were missed. We built Priorix to solve our own headaches. We wanted a tool that:
+1. Tells you exactly what to do next.
+2. Lets management instantly see capacity issues before burnout happens.
+3. Gets out of the way (heavy emphasis on keyboard shortcuts).
+
+## Core Features
+
+- **Priority Engine:** We use a custom regression formula (modeled on the TS-PS13 dataset) to assign a 0-100 score to every task.
+- **Focus Mode:** Hit the "Focus" button to hide the chaotic backlog. It isolates your top AI-recommended task with a massive timer so you can just put your head down and work.
+- **Workload Heatbars:** On the admin side, user capacity isn't just a number—it's a colored heatbar. If an engineer is overloaded (8+ active tasks), their bar goes red, allowing the team lead to rebalance work immediately.
+- **Global Command Palette:** We hate using the mouse. Press `Ctrl + K` to open a spotlight search that lets you navigate the app or find tasks instantly.
+- **Team Hub:** A built-in realtime feed. When someone finishes a task, it auto-logs to the hub, keeping the team synced without annoying stand-up meetings.
+>>>>>>> c187dbb67a0f1ab4a5d067f58732ca72436c8d0d
 
 ## Technical Details
 
