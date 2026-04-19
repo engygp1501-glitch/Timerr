@@ -65,9 +65,10 @@ During past projects, we noticed a recurring problem: developers would get stuck
 
 We prioritized speed and real-time synchronization for the stack:
 - **Frontend:** React + Vite. We stuck with vanilla CSS and Tailwind for styling.
-- **Backend/Database:** Firebase Realtime Database. We needed instant UI updates across different clients without writing complex WebSocket boilerplate, so Firebase was the easiest choice for a fast hackathon turnaround.
+- **Backend/Database:** Node.JS + Express, Firebase Realtime Database. We needed instant UI updates across different clients without writing complex WebSocket boilerplate, so Firebase was the easiest choice for a fast hackathon turnaround.
 - **Auth:** Firebase Auth (Role-based access separating Admins and Employees).
 - **Charts:** Chart.js for the analytics dashboard.
+- **Export:** jsPDF + PapaParse
 
 ---
 
